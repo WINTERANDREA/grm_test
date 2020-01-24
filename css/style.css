@@ -1131,6 +1131,7 @@ footer {
   }
   .griglia__1 {
     order: 2;
+    padding-top: 30px;
   }
   .griglia__2 {
     order: 1;
@@ -1138,6 +1139,11 @@ footer {
   }
   .griglia__3 {
     order: 2;
+    padding-top: 30px;
+  }
+  .griglia__1--container,
+  .griglia__3--container {
+    padding-bottom: 40px;
   }
 }
 
@@ -1163,6 +1169,10 @@ footer {
     max-width: 420px;
     max-height: 315px;
   }
+  .griglia__1--container,
+  .griglia__3--container {
+    padding-bottom: 25px;
+  }
 }
 
 @media (max-width: 450px) {
@@ -1184,5 +1194,11 @@ footer {
   .header__footer {
     padding-left: 20px;
     padding-right: 20px;
+  }
+}
+
+@media (max-width: 627px) {
+  .header__footer {
+    padding-bottom: 66px;
   }
 }
